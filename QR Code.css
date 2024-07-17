@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(1, 95, 95);
+}
+
+.parent{
+    background-color: aquamarine;
+    width: 1000px;
+    height: 700px;
+    margin: 120px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.container{
+    background-color: white;
+    width: 230px;
+    height: 390px;
+    border: none;
+    border-radius: 18px;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img{
+    margin: 6px;
+    width: 210px;
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    
+}
+
+#one{
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+#two{
+    font-family: Arial, Helvetica;
+    font-size: 11px;
+    color: silver;
+    text-align: center;
+    line-height: 15px;
+    margin: 2px;
+    
+}
